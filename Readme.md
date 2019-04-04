@@ -8,6 +8,12 @@ This is a small cli to manage quickly your dd-wrt router
 make build
 ```
 
+## Download
+
+Get the binary here: https://github.com/titilambert/ddwrt-cli/releases
+
+Note: For now, only linux-am64 binary is available. But there is no reason why it can not be compiled on Windows or Mac.
+
 ## Usage
 
 ### Init
