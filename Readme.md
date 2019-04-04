@@ -56,7 +56,10 @@ I'm not a Golang expert, so I'm pretty sure this code can be improved.
 
 If you want to improve it, please, submit a PR ! Thanks
 
-Tested on:
+Tested on the following pages:
+* `Services` => `Services`
+
+Tested on the following routers:
 * Router Model: Dlink DIR-825
   Firmware Version: DD-WRT v3.0-r34411 std (01/07/18)
 * Router Model: Dlink DIR-825
