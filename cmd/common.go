@@ -255,8 +255,9 @@ func getWebPageData(path string, translations map[string]string) (map[string]map
 			raw_value := htmlquery.InnerText(input.NextSibling)
 			re := regexp.MustCompile(`\( '(.*)' \)`)
 			values := re.FindSubmatch([]byte(raw_value))
-			value := values[1]
-			data[section][key] = string(value)
+			value := string(values[1])
+			value = strings.Replace(value, "&#13;&#10;", "\n", -1)
+			data[section][key] = value
 		}
 	}
 	// Hidden inputs
